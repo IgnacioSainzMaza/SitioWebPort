@@ -1,24 +1,23 @@
-@font-face {
-    font-family: Satoshi-Regular;
-    src: url('WebPortfolio/SitioWebPort/fonts/Satoshi-Regular.woff2') format('woff2'),
-         url('WebPortfolio/SitioWebPort/fonts/Satoshi-Regular.woff') format('woff'),
-         url('WebPortfolio/SitioWebPort/fonts/Satoshi-Regular.ttf') format('truetype');
 
-  }
 
 body {
-    font-size: 18px;
-    font-family: Satoshi-Regular;
+    font-family: 'Satoshi', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: rgb(235, 220, 155);
+    
 }
 
 header {
-    background-color: #003d61;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(83,112,156,1) 44%, rgba(144,236,255,1) 100%);
     color: #ffffff;
     text-align: center;
     padding: 20px;
+    font-size: 18px;
+    font-family: 'Stardom', sans-serif;
+
 }
 
 header h1 {
@@ -26,6 +25,7 @@ header h1 {
 }
 
 section {
+    
     padding: 40px;
 }
 
@@ -44,5 +44,24 @@ footer {
 }
 
 
+.etiqueta-barra {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #000000;
+    text-decoration: none;
+    margin: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+
+.etiqueta-barra:hover {
+    transform: translatey(-20px);
+        -webkit-transform: translatey(-10px);
+        -moz-transform: translatey(-10px);
+}
 
   
